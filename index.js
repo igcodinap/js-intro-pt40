@@ -2,7 +2,6 @@
 
 //const, var o let + nombre de la variable + el signo igual + valor
 const nombre1 = 10 
-const nombre1string = '10'
 let nombre2 = 15
 var nombre3 = 20 // desactualizada.
 
@@ -68,3 +67,36 @@ console.log(listadoSupermercado[10])
 
 
 
+
+
+
+
+
+
+
+
+
+
+let televisor = 1500;
+televisor = 2000;
+
+const pc="el valor de la variable" 
+
+let verdaderofalso=false;
+verdaderofalso = true;
+
+
+const person={
+    name: "Luis",
+    edad: 25,
+    direccion: "santa rosa"
+}
+
+console.log(person.edad) 
+const x = person.name
+console.log(x, '<-----x')
+
+
+let animales = ["caballo", 10, "rana", 20.5]
+
+console.log(animales[2])
