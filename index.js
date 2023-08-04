@@ -5,7 +5,7 @@ const nombre1 = 10
 let nombre2 = 15
 var nombre3 = 20 // desactualizada.
 
-const firstName = "Ignacio"
+const firstName = "Ignacio)(/)(&)/(&&("
 const lastName = "Codina"
 
 const y = "Av. providencia 2435" // esto no se hace
