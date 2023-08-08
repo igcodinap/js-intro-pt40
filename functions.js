@@ -51,3 +51,30 @@ const animal = {
 }
 
 animal.bark(' soy un perro')
+
+const num = Number.isInteger(10.1)
+
+const variableGlobal = 'Soy una variable global, debido a que no hay corchetes alrededor de mi';
+
+// un bloque es aquello que está entre {} a excepcion de un objecto
+// const y let solo definen la variable dentro del bloque.
+// var define a la variable para ser accedida fuera del bloque.
+
+// incia el bloque
+if (true) {
+    const variableBloque = 'Soy valida solo en el bloque, ya que me definieron con const o let, por tanto soy una variable local';
+    var variableBloqueValida = 'Soy valida incluso fuera del bloque';
+    // bloque 2
+    if (true) {
+        const variableBloque2 = 'Soy valida solo en el bloque, ya que me definieron con const o let, por tanto soy una variable local';
+    }
+    // fin bloque 2
+}
+// termina el bloque
+
+
+
+//BUILT IN FUNCTIONS
+// Data types
+// String
+let string = 'Soy un string'

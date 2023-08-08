@@ -57,3 +57,50 @@ if (true) {
     console.log("ELSE!")
 }
 
+
+
+
+if (false) {
+    console.log('IF!')
+} else if (false) {
+    console.log('IF2!')
+} else {
+    console.log("ELSE!")
+}
+
+if (true) {
+    console.log('IF3!')
+}
+
+
+
+// SWITCH
+// switch es una estructura de control que nos permite evaluar una expresion y compararla con diferentes casos, no necesariamente true o false.
+
+let day = "parttime40"
+
+switch (day) {
+    case 0:
+        console.log('Domingo')
+        break;
+    case 1:
+        console.log('Lunes')
+        break;
+    case 2:
+        console.log('Martes')
+        break;
+    default:
+        console.log('No es un dia de la semana')
+        break;
+}
+
+
+// if (day === 0) {
+//     console.log('Domingo')
+// } else if(day === 1) {
+//     console.log('Lunes')
+// } else if(day === 2) {
+//     console.log('Martes')
+// } else {
+//     console.log('No es un dia de la semana')
+// }
