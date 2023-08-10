@@ -1,6 +1,4 @@
-// 1. Reverse a string
-//Hacer una funcion que reciba un string y lo retorne al revés
-// hola -----> aloh
+
 
 function reverseString() {
     const s1 = "1"
