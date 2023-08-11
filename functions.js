@@ -1,10 +1,10 @@
 // FUNCTIONS
 
-// - Bloque de codigo que se puede reutilizar X
-// - Posee Parametros x
-// - Tiene una parte que es el return x
-// - Tiene nombre x
-// - Tiene llaves x
+// - Bloque de codigo que se puede reutilizar 
+// - Posee Parametros 
+// - Tiene una parte que es el return 
+// - Tiene nombre 
+// - Tiene llaves 
 // - Existen dos maneras de escribir funciones en JS
 
 // Def: las funciones nos permiten encapsular codigo para usarlo posteriormente.
