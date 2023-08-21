@@ -13,8 +13,8 @@ array.map((fruit) => {
 });
 
 // forEach - no recibe un valor, sino que ejecuta una funcion por cada elemento del array [callback]
-array.forEach(function (fruit) {
-    const fruitWithEmoji = fruit + "🍎";
+array.forEach(function (fruit, index) {
+    const fruitWithEmoji = fruit + "🍎" + index;
     console.log(fruitWithEmoji);
 });
 
